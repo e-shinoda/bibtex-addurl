@@ -30,6 +30,6 @@ for i in range(len(purl)):
         print bib[i][:-3] + ',\nurl = {' + purl[i][:-4] + '}\n}'
         bibpd.append(bib[i][:-3] + ',\nurl = {' + purl[i][:-4] + '}\n}\n')
         
-w=codecs.open('C:\users\shinoda\desktop\ICCV\\iccv2013.bib','w','utf-8')
+w=codecs.open('\iccv2013.bib','w','utf-8')
 w.writelines(bibpd)
 w.close()
